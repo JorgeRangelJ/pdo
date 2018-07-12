@@ -15,10 +15,6 @@
 			<li>
 				<a href="add.php">Agregar Usuarios</a>
 			</li>
-			<li>
-				
-			</li>
-			<li></li>
 		</ul>
 	</div>
 </body>
