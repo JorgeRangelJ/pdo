@@ -15,6 +15,12 @@
 			<li>
 				<a href="add.php">Agregar Usuarios</a>
 			</li>
+			<li>
+				<a href="fake-login.php">Fake Login</a>
+			</li>
+			<li>
+				<a href="fake-login-protected.php">Fake Login Protected</a>
+			</li>
 		</ul>
 	</div>
 </body>
