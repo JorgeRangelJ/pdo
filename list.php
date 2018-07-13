@@ -18,12 +18,14 @@
 				<th>Name</th>
 				<th>Email</th>
 				<th>Edit</th>
+				<th>Delete</th>
 			</tr>
 			<?php	while ($row = $queryResult->fetch(PDO::FETCH_ASSOC)) { ?>
 			<tr>
 				<td><?= $row["name"]; ?></td>
 				<td><?= $row["email"]; ?></td>
 				<td><a href="update.php?id=<?= $row["id"]; ?>">Edit</a></td>
+				<td><a href="delete.php?id=<?= $row["id"]; ?>">Delete</a></td>
 			</tr>
 			<?php	} ?>
 		</table>
